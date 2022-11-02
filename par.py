@@ -93,13 +93,13 @@ while latest_block > 710000:
             # If you want to search for a specific address, just run a loop as follows:
             # Let's use a random address found on block 719834
             
-            #if address == "bc1pelm7ze0nkvh8px2xwswzcc28zhklqlxuquwuuva7yw5txz0n3enqzgz5w6":
-            #    print(str(address)+"'\t"+str(value))
-            #    get_block_hash, blockhash, transactions, block, txid = 0, 0, 0, 0, 0
-            #    latest_block = 0
-            #else:
-            #    get_block_hash, blockhash, transactions, block, txid = 0, 0, 0, 0, 0
-            #    continue
+            if address == "Nj1fhQFjeaT56pSA9vLbaEB7fdhmTKnYRz":
+                print(str(address)+"'\t"+str(value))
+                get_block_hash, blockhash, transactions, block, txid = 0, 0, 0, 0, 0
+                latest_block = 0
+            else:
+                get_block_hash, blockhash, transactions, block, txid = 0, 0, 0, 0, 0
+                continue
             # -----------------------------------------------------------------------------------------------------------
 
             # In this following loop I want to see any addresses that have 6.25 Bitcoins in them.
