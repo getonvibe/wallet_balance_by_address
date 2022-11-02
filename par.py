@@ -4,7 +4,7 @@ import requests
 import time
 
 # Same information on bitcoin.conf file
-rpcport = 18332
+rpcport = 9332
 rpcuser = 'Chocolatier'
 rpcpassword = 'RPCs'
 rpcip = '127.0.0.1'
